@@ -1,0 +1,326 @@
+# Copyright (C) 2021 Woongkir
+# This file is distributed under the same license as the Woongkir package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Woongkir\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s is number of days.
+#: includes/helpers.php:343
+msgid "1 day"
+msgstr ""
+
+#: includes/helpers.php:343
+msgid "%s days"
+msgstr ""
+
+#: includes/helpers.php:338
+msgid "1 hour"
+msgstr ""
+
+#: includes/helpers.php:338
+msgid "%s hours"
+msgstr ""
+
+#: includes/helpers.php:361, includes/helpers.php:362
+msgid "Province"
+msgstr ""
+
+#: includes/helpers.php:366, includes/helpers.php:367
+msgid "Town / City"
+msgstr ""
+
+#: includes/helpers.php:371, includes/helpers.php:372
+msgid "Subdistrict"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:210
+msgid "Multiple Shipping Couriers"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:211
+msgid "Calculate Subdistrict Level"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:212
+msgid "Calculate Volumetric"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:213
+msgid "Calculate Weight Over 30kg"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:214
+msgid "Dedicated API Server"
+msgstr ""
+
+#. translators: %s API request parameter key.
+#: includes/classes/class-woongkir-account.php:269
+msgid "Required API request parameter is empty: %s."
+msgstr ""
+
+#. translators: %1$s API request parameter key, %2$s Expected data type, %1$s Passed data type.
+#: includes/classes/class-woongkir-account.php:274
+msgid "Invalid API request parameter data type: %1$s. Passed %2$s instead %3$s"
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:292
+msgid "API request parameters is empty."
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:312
+msgid "Account type not support weight over 30 kg."
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:329
+msgid "Account type not support subdistrict origin."
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:346
+msgid "Account type not support subdistrict destination."
+msgstr ""
+
+#: includes/classes/class-woongkir-account.php:363
+msgid "Account type not support multiple couriers."
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:358
+msgid "Domestic Shipping Couriers"
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:359
+msgid "International Shipping Couriers"
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:398, includes/classes/class-woongkir-api.php:704
+msgid "API response is empty."
+msgstr ""
+
+#. translators: %1$s - JSON error message, %2$s API response body.
+#: includes/classes/class-woongkir-api.php:411
+msgid "Failed to decode the JSON data: Error: %1$s, Body: %2$s"
+msgstr ""
+
+#. translators: %1$s - API error code, %2$s API error description.
+#: includes/classes/class-woongkir-api.php:419
+msgid "Code: %1$s, Description: %2$s"
+msgstr ""
+
+#. translators: %1$s - API response body.
+#: includes/classes/class-woongkir-api.php:427
+msgid "API response is invalid:  %1$s"
+msgstr ""
+
+#. translators: %s - Error message from RajaOngkir.com.
+#: includes/classes/class-woongkir-api.php:432
+msgid "<strong>Error from RajaOngkir.com</strong>: %s"
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:621
+msgid "Shipping zone parameter is empty."
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:625
+msgid "Shipping zone parameter is invalid."
+msgstr ""
+
+#: includes/classes/class-woongkir-api.php:845
+msgid "Failed to parse API response data."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:117
+msgid "Error"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:119
+msgid "This plugin only work for Store Address based in Indonesia."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:128
+msgid "Shipping Origin Province"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:132
+msgid "Shipping Origin City"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:136
+msgid "Shipping Origin Subdistrict"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:140
+msgid "Sort Shipping"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:144
+msgid "By Cost - Ascending"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:145
+msgid "By Cost - Descending"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:146
+msgid "By Name - A to Z"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:147
+msgid "By Name - Z to A"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:148, includes/classes/class-woongkir-shipping-method.php:242
+msgid "No"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:150
+msgid "Sort the shipping couriers list in the cart and checkout page."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:153
+msgid "Show ETA"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:154, includes/classes/class-woongkir-shipping-method.php:242
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:156
+msgid "Show estimated time of arrival during checkout."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:159
+msgid "Base Cart Contents Weight (gram)"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:161
+msgid "The base cart contents weight will be calculated. If the value is blank or zero, the couriers list will not displayed when the actual cart contents weight is empty."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:168
+msgid "RajaOngkir API Key"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:171
+msgid "<a href=\"http://www.rajaongkir.com?utm_source=woongkir.com\" target=\"_blank\">Click here</a> to get RajaOngkir.com API Key. It is FREE."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:176
+msgid "RajaOngkir Account Type"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:192
+msgid "Couriers"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:197
+msgid "Volumetric Converter"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:198
+msgid "Enable"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:200
+msgid "Convert volumetric to weight before send request to API server."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:204
+msgid "Volumetric Converter Divider"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:206
+msgid "The formula to convert volumetric to weight: <code>Width(cm) &#215; Length(cm) &#215; Height(cm) &#247; Divider</code>."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:215
+msgid "Tax Status"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:219
+msgid "Taxable"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:220
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:480
+msgid "Features"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:674
+msgid "Visit courier's website"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:680
+msgid "Toggle"
+msgstr ""
+
+#. translators: %s is setting field label.
+#. translators: %s is setting field label.
+#. translators: %s is setting field label.
+#: includes/classes/class-woongkir-shipping-method.php:724, includes/classes/class-woongkir-shipping-method.php:760, includes/classes/class-woongkir-shipping-method.php:785
+msgid "%s is required."
+msgstr ""
+
+#. translators: %s is setting field label.
+#: includes/classes/class-woongkir-shipping-method.php:765
+msgid "%s is invalid."
+msgstr ""
+
+#. translators: %1$s Setting field label.
+#: includes/classes/class-woongkir-shipping-method.php:824
+msgid "%1$s is required."
+msgstr ""
+
+#. translators: %1$s Setting field label, %2$s Account label.
+#: includes/classes/class-woongkir-shipping-method.php:837
+msgid "%1$s: Account type %2$s is not allowed to select multiple couriers."
+msgstr ""
+
+#. translators: %1$s Setting field label, %2$s Account label, %3$s Couriers name.
+#: includes/classes/class-woongkir-shipping-method.php:844
+msgid "%1$s Shipping: Account type %2$s is not allowed to select courier_data %3$s."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:921
+msgid "No couriers data found"
+msgstr ""
+
+#. translators: % s Encoded data response .
+#: includes/classes/class-woongkir-shipping-method.php:926
+msgid "Couriers data is invalid: %s"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:1096
+msgid "Shipping destination country is empty."
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:1112
+msgid "Shipping origin info is empty or invalid"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:1128
+msgid "Shipping destination info is empty or invalid"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:1144
+msgid "Cart weight or dimension is empty or invalid"
+msgstr ""
+
+#: includes/classes/class-woongkir-shipping-method.php:1151
+msgid "No couriers selected"
+msgstr ""
+
+#: includes/classes/class-woongkir.php:179
+msgid "Settings"
+msgstr ""
